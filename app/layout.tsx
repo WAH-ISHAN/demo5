@@ -4,7 +4,7 @@ import './globals.css';
 export const viewport = { width: 'device-width', initialScale: 1 };
 
 export const metadata: Metadata = {
-  title: 'Aurelia Collection — Private journeys, beautifully considered',
+  title: 'Orean Hotel — Private journeys, beautifully considered',
   description: 'A premium hospitality website template crafted by Orean Software Solutions.',
 };
 

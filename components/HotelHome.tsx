@@ -120,9 +120,9 @@ export function HotelHome() {
   return (
     <main>
       <header className={`siteHeader ${solidNav ? 'solid' : ''}`}>
-        <a className="brand" href="#top" aria-label="Aurelia Collection home">
+      <a className="brand" href="#top" aria-label="Orean Hotel home">
           <span className="brandMark">✦</span>
-          <span>AURELIA</span>
+          <span>OREAN HOTEL</span>
         </a>
         <nav className="desktopNav" aria-label="Primary navigation">
           <a href="#destinations">Destinations</a>
@@ -141,7 +141,7 @@ export function HotelHome() {
         <div className="heroBackdrop" />
         <div className="heroShade" />
         <div className="heroContent" data-reveal>
-          <p className="eyebrow light">AURELIA COLLECTION · SRI LANKA</p>
+            <p className="eyebrow light">OREAN HOTEL · SRI LANKA</p>
           <h1>Stay close to<br /><em>what moves you.</em></h1>
           <p className="heroCopy">Private stays shaped by place, culture and the quiet art of being looked after.</p>
           <div className="heroLinks">
@@ -191,7 +191,7 @@ export function HotelHome() {
             <p className="eyebrow">STAY YOUR WAY</p>
             <h2>Room to retreat,<br /><em>reconnect and remain.</em></h2>
           </div>
-          <p>Three distinct ways to experience Aurelia, each connected by quiet service and a strong sense of place.</p>
+            <p>Three distinct ways to experience Orean Hotel, each connected by quiet service and a strong sense of place.</p>
         </div>
         <div className="spaceGrid">
           {spaces.map((space, index) => (
@@ -227,7 +227,7 @@ export function HotelHome() {
             <h2>Hospitality with<br /><em>a sense of place.</em></h2>
           </div>
           <div className="storyBody">
-            <p>Aurelia began with a simple belief: the most meaningful stays are not defined by excess, but by attention — to landscape, culture, craft and the person arriving at the door.</p>
+            <p>Orean Hotel began with a simple belief: the most meaningful stays are not defined by excess, but by attention — to landscape, culture, craft and the person arriving at the door.</p>
             <p>Every property is intentionally different. What connects them is an approach to hosting that is calm, intuitive and grounded in local knowledge.</p>
           </div>
         </div>
@@ -239,7 +239,7 @@ export function HotelHome() {
 
       <section id="culture" className="culture sectionPad">
         <div className="cultureHeader" data-reveal>
-          <p className="eyebrow light">THE AURELIA WAY</p>
+          <p className="eyebrow light">THE OREAN WAY</p>
           <h2>Curiosity shapes<br /><em>every journey.</em></h2>
         </div>
         <div className="cultureList">
@@ -314,13 +314,13 @@ export function HotelHome() {
 
       <footer className="footer sectionPad">
         <div className="footerTop">
-          <div className="footerBrand"><span className="brandMark">✦</span><strong>AURELIA</strong><p>Private journeys across Sri Lanka.</p></div>
+          <div className="footerBrand"><span className="brandMark">✦</span><strong>OREAN HOTEL</strong><p>Private journeys across Sri Lanka.</p></div>
           <div><span>Explore</span><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#story">Our Story</a></div>
-          <div><span>Guest services</span><a href="#booking">Reservations</a><a href="mailto:stay@aurelia.example">stay@aurelia.example</a><a href="tel:+94112345678">+94 11 234 5678</a></div>
+          <div><span>Guest services</span><a href="#booking">Reservations</a><a href="mailto:stay@oreanhotel.lk">stay@oreanhotel.lk</a><a href="tel:+94112345678">+94 11 234 5678</a></div>
           <div><span>Information</span><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Accessibility</a></div>
         </div>
         <div className="footerBottom">
-          <span>© 2026 Aurelia Collection</span>
+          <span>© 2026 Orean Hotel</span>
           <span>Website & Digital Solutions by <strong>Orean Software Solutions</strong> · Sri Lanka</span>
         </div>
       </footer>
@@ -328,7 +328,7 @@ export function HotelHome() {
       <div className={`overlayMenu ${menuOpen ? 'open' : ''}`} aria-hidden={!menuOpen}>
         <button className="closeButton" onClick={() => setMenuOpen(false)}>Close ×</button>
         <div className="overlayMenuInner">
-          <p className="eyebrow light">EXPLORE AURELIA</p>
+          <p className="eyebrow light">EXPLORE OREAN HOTEL</p>
           <a onClick={() => setMenuOpen(false)} href="#destinations">Destinations <span>01</span></a>
           <a onClick={() => setMenuOpen(false)} href="#stays">Stays <span>02</span></a>
           <a onClick={() => setMenuOpen(false)} href="#experiences">Experiences <span>03</span></a>

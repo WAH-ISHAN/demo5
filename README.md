@@ -1,4 +1,4 @@
-# Aurelia Collection — Luxury Hospitality Template
+# Orean Hotel — Luxury Hospitality Template
 
 An original premium hospitality website created by Orean Software Solutions.
 
